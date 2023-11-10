@@ -1,0 +1,10 @@
+{
+    "name": "lta.components",
+    "displayName": "LTA Component",
+    "version": "1.0.0",
+    "description": "LTA Component",
+    "dependencies": {
+        "lta.base": "1.0.0",
+        "lta.data": "1.0.0"
+    }
+}

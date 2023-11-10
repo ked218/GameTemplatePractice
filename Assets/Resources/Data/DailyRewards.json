@@ -1,0 +1,313 @@
+{
+    "data":[
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_1",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":0
+                    }
+                }
+                
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_1",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 1",
+            "description": "10",
+            "messageError":"No Thing"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_2",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":1
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_2",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 2",
+            "description": "10",
+            "messageError":"Play Game In 2 Days"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_3",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":2
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_3",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 3",
+            "description": "10",
+            "messageError":"Play Game In 3 Days"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_4",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":3
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_4",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 4",
+            "description": "10",
+            "messageError":"Play Game In 4 Days"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_5",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":4
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_5",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 5",
+            "description": "10",
+            "messageError":"Play Game In 5 Days"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_6",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":5
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_6",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 6",
+            "description": "10",
+            "messageError":"Play Game In 6 Days"
+        },
+        {  
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Daily_Day_7",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentDayPlayGameCondtition",
+                    "data":{
+                        "minDay":6
+                    }
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Gold",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Daily_Day_7",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Day 7",
+            "description": "10",
+            "messageError":"Play Game In 7 Days"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "data":{
+        "ChallengeLevels":{
+            "levelName":"Challenge Levels",
+            "conditions":[
+                {
+                    "ComponentName":"CurrentLevelCondition",
+                    "data":{
+                        "minLevel":3
+                    }
+                }
+            ],
+            "typeLevels":[
+                {
+                    "levelName":"Hard",
+                    "conditions":[
+                        {
+                            "ComponentName":"CurrentLevelCondition",
+                            "data":{
+                                "minLevel":3
+                            }
+                        }
+                    ],
+                    "DataName":"ChallengeLevels_Hard",
+                    "messageError":"You Need Complete Level 3"
+                },
+                {
+                    "levelName":"Crazy",
+                    "conditions":[
+                        {
+                            "ComponentName":"CurrentLevelCondition",
+                            "data":{
+                                "minLevel":4
+                            }
+                        }
+                    ],
+                    "DataName":"ChallengeLevels_Crazy",
+                    "messageError":"You Need Complete Level 4"
+                }
+            ],
+            "messageError":"You Need Complete Level 3"
+        },
+        "DailyLevels":{
+            "levelName":"Daily Levels",
+            "conditions":[
+                {
+                    "ComponentName":"CurrentLevelCondition",
+                    "data":{
+                        "minLevel":4
+                    }
+                }
+            ],
+            "typeLevels":[
+                {
+                    "levelName":"Level Reward",
+                    "conditions":[
+                        {
+                            "ComponentName":"CurrentLevelCondition",
+                            "data":{
+                                "minLevel":5
+                            }
+                        }
+                    ],
+                    "DataName":"DailyLevels_Level_Reward",
+                    "messageError":"You Need Complete Level 5"
+                },
+                {
+                    "levelName":"Accumulated Reward",
+                    "conditions":[
+                        {
+                            "ComponentName":"CurrentLevelCondition",
+                            "data":{
+                                "minLevel":6
+                            }
+                        }
+                    ],
+                    "DataName":"DailyLevels_Accumulated_Reward",
+                    "messageError":"You Need Complete Level 6"
+                }
+            ],
+            "messageError":"You Need Complete Level 4"
+        }
+    }
+}

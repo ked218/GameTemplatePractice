@@ -1,0 +1,54 @@
+﻿{
+    "data" : {
+        "AddResourceHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "AddResourceHandle",
+            "typeInfo" : "AddResourceHandleInfo",
+            "data" : {
+                "key" : "",
+                "value" : 0
+            }
+        },
+        "DestroyHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "DestroyHandle"
+        },
+        "DestroyPoolHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "DestroyPoolHandle"
+        },
+        "MinusResourceHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "MinusResourceHandle",
+            "typeInfo" : "MinusResourceHandleInfo",
+            "data" : {
+                "key" : "",
+                "value" : 0
+            }
+        },
+        "PlayGameHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "PlayGameHandle"
+        },
+        "SetPlayerPrefHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "SetPlayerPrefHandle",
+            "typeInfo" : "SetPlayerPrefHandleInfo",
+            "data" : {
+                "key" : "",
+                "typeValue" : "",
+                "stringValue" : "",
+                "intValue" : 0,
+                "floatValue" : 0
+            }
+        },
+        "UpdateLevelHandle" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "UpdateLevelHandle",
+            "typeInfo" : "UpdateLevelHandleInfo",
+            "data" : {
+                "levelKey" : "MainLevel"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "lta.loading",
+    "displayName": "LTA Loading",
+    "version": "1.0.0",
+    "description": "LTA Loading",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6",
+        "lta.tween": "1.0.0",
+        "lta.scene": "1.0.0"
+    }
+}

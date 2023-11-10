@@ -1,0 +1,85 @@
+{
+    "data":{
+        "Star":
+        {
+            "maxValue":50,
+            "chests":[
+                {
+                    "value":10,
+                    "iconChest":"Icon_ChestIcon_Blue02_l",
+                    "unLockChest":"Icon_ChestIcon_Gold01_l",
+                    "iconResource":"Slider01_icon2","caimHandles":[
+                        {
+                            "ComponentName":"AddResourceHandle",
+                            "data":{
+                                "key":"Gold",
+                                "value" : 10
+                            }
+                        }
+                    ]
+
+                },
+                {
+                    "value":20,
+                    "iconChest":"Icon_ChestIcon_Blue02_l",
+                    "unLockChest":"Icon_ChestIcon_Gold01_l",
+                    "iconResource":"Slider01_icon2",
+                    "caimHandles":[
+                        {
+                            "ComponentName":"AddResourceHandle",
+                            "data":{
+                                "key":"Gold",
+                                "value" : 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value":50,
+                    "iconChest":"Icon_ChestIcon_Blue02_l",
+                    "unLockChest":"Icon_ChestIcon_Gold01_l",
+                    "iconResource":"Slider01_icon2",
+                    "caimHandles":[
+                        {
+                            "ComponentName":"AddResourceHandle",
+                            "data":{
+                                "key":"Gold",
+                                "value" : 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value":30,
+                    "iconChest":"Icon_ChestIcon_Blue02_l",
+                    "unLockChest":"Icon_ChestIcon_Gold01_l",
+                    "iconResource":"Slider01_icon2",
+                    "caimHandles":[
+                        {
+                            "ComponentName":"AddResourceHandle",
+                            "data":{
+                                "key":"Gold",
+                                "value" : 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value":50,
+                    "iconChest":"Icon_ChestIcon_Blue02_l",
+                    "unLockChest":"Icon_ChestIcon_Gold01_l",
+                    "iconResource":"Slider01_icon2",
+                    "caimHandles":[
+                        {
+                            "ComponentName":"AddResourceHandle",
+                            "data":{
+                                "key":"Gold",
+                                "value" : 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

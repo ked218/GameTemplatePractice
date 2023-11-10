@@ -1,0 +1,144 @@
+{
+    "data":[
+        {  
+            "openConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Acheivement 1",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 0
+                        }
+                    }
+                }
+            ],
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Acheivement 1",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentLevelCondition",
+                    "data":{
+                        "minLevel":1
+                    }
+                }
+            ],
+            "rewards":[
+                {
+                    "iconPath":"Icon_ImageIcon_Glod01_s",
+                    "quantity":100
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Star",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Acheivement 1",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                },
+                {
+                    "ComponentName":"DestroyPoolHandle"
+                }
+            ],
+            "goHandles":[
+                {
+                    "ComponentName":"PlayGameHandle"
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Acheivement 1",
+            "messageError":"Complete Level 1"
+        },
+        {  
+            "openConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Acheivement 2",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 0
+                        }
+                    }
+                }
+            ],
+            "clearConditions":[
+                {
+                    "ComponentName":"PlayerPrefCondition",
+                    "data" : {
+                        "key" : "Acheivement 2",
+                        "typeValue" : "integer",
+                        "compareValue" : {
+                            "typeCompare" : "Equal",
+                            "valueCompare" : 1
+                        }
+                    }
+                }
+            ],
+            "conditions":[
+                {
+                    "ComponentName":"CurrentLevelCondition",
+                    "data":{
+                        "minLevel":2
+                    }
+                }
+            ],
+            "rewards":[
+                {
+                    "iconPath":"Icon_ImageIcon_Glod01_s",
+                    "quantity":100
+                }
+            ],
+            "caimHandles":[
+                {
+                    "ComponentName":"AddResourceHandle",
+                    "data":{
+                        "key":"Star",
+                        "value" : 10
+                    }
+                },
+                {
+                    "ComponentName":"SetPlayerPrefHandle",
+                    "data" : {
+                        "key" : "Acheivement 2",
+                        "typeValue" : "integer",
+                        "intValue" : 1
+                    }
+                },
+                {
+                    "ComponentName":"DestroyPoolHandle"
+                }
+            ],
+            "goHandles":[
+                {
+                    "ComponentName":"PlayGameHandle"
+                }
+            ],
+            "icon":"Icon_ImageIcon_GoldPouch",
+            "title": "Acheivement 2",
+            "messageError":"Complete Level 2"
+        }
+    ]
+}

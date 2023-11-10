@@ -1,0 +1,52 @@
+{
+    "data":[
+        {
+            "typeName":"Bronze",
+            "typeResource" : "SeasonPoint",
+            "fakeRange":[50,90],
+            "conditions":[
+                {
+                    "ComponentName":"ResourceCondition",
+                    "data":{
+                        "resourceKey" : "SeasonPoint",
+                        "minValue" : 0
+                    }
+                }
+            ],
+            "DataName":"Bronze",
+            "messageError":"You Need Have Least 0 Season Point"
+        },
+        {
+            "typeName":"Silver",
+            "typeResource" : "SeasonPoint",
+            "fakeRange":[150,490],
+            "conditions":[
+                {
+                    "ComponentName":"ResourceCondition",
+                    "data":{
+                        "resourceKey" : "SeasonPoint",
+                        "minValue" : 100
+                    }
+                }
+            ],
+            "DataName":"Silver",
+            "messageError":"You Need Have Least 100 Season Point"
+        },
+        {
+            "typeName":"Gold",
+            "typeResource" : "SeasonPoint",
+            "fakeRange":[550,1000],
+            "conditions":[
+                {
+                    "ComponentName":"ResourceCondition",
+                    "data":{
+                        "resourceKey" : "SeasonPoint",
+                        "minValue" : 500
+                    }
+                }
+            ],
+            "DataName":"Gold",
+            "messageError":"You Need Have Least 500 Season Point"
+        }
+    ]
+}

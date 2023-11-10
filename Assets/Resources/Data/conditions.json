@@ -1,0 +1,44 @@
+﻿{
+    "data" : {
+        "CurrentDayPlayGameCondtition" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "CurrentDayPlayGameCondtition",
+            "typeInfo" : "CurrentDayPlayGameCondtitionInfo",
+            "data" : {
+                "minDay" : 0
+            }
+        },
+        "CurrentLevelCondition" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "CurrentLevelCondition",
+            "typeInfo" : "CurrentLevelConditionInfo",
+            "data" : {
+                "levelKey" : "MainLevel",
+                "minLevel" : 1
+            }
+        },
+        "PlayerPrefCondition" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "PlayerPrefCondition",
+            "typeInfo" : "PlayerPrefConditionInfo",
+            "data" : {
+                "key" : "",
+                "typeValue" : "",
+                "stringValue" : "",
+                "compareValue" : {
+                    "typeCompare" : "",
+                    "valueCompare" : 0
+                }
+            }
+        },
+        "ResourceCondition" : {
+            "assemblyName" : "Assembly-CSharp",
+            "type" : "ResourceCondition",
+            "typeInfo" : "ResourceConditionInfo",
+            "data" : {
+                "resourceKey" : "",
+                "minValue" : 0
+            }
+        }
+    }
+}

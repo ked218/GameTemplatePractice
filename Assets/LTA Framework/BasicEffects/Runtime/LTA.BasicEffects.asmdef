@@ -1,0 +1,20 @@
+{
+    "name": "LTA.BasicEffects",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Effect",
+        "LTA.Base",
+        "LTA.Sounds",
+        "LTA.DesignPattern",
+        "LTA.Tween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
